@@ -1,0 +1,21 @@
+{
+  "batch": "demo-test",
+  "description": "Demo: verify the shared queue pipeline works end-to-end",
+  "author": "Ayush-Puri",
+  "priority": 50,
+  "model": "haiku",
+  "tasks": [
+    {
+      "title": "Create a test file",
+      "prompt": "Create a file at ~/claude-auto/logs/shared-queue-test.md with the content:\n\n# Shared Queue Test\n\nThis file was created by the shared-Claude-Todo dispatcher.\n\n- Timestamp: (current date and time)\n- Batch: demo-test\n- Status: Pipeline working!\n",
+      "verification": "Check that ~/claude-auto/logs/shared-queue-test.md exists and contains 'Pipeline working'",
+      "expectedResult": "File exists with pipeline working message"
+    },
+    {
+      "title": "Confirm and summarize",
+      "prompt": "Read ~/claude-auto/logs/shared-queue-test.md and confirm it was created correctly. Then append a line: '- Verified by Claude at (current time)' to the file.",
+      "verification": "Run: grep -c 'Verified by Claude' ~/claude-auto/logs/shared-queue-test.md",
+      "expectedResult": "Returns 1 (line exists)"
+    }
+  ]
+}
