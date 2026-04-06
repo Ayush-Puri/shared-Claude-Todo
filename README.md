@@ -92,8 +92,22 @@ shared-Claude-Todo/
 ├── running/         ← Currently executing (moved here by dispatcher)
 ├── done/            ← Completed successfully (moved here after execution)
 ├── failed/          ← Failed after retry (moved here, check iterations for trace)
+├── responses/       ← Packaged output from completed tasks
+│   ├── 01_urgent-fix-output.md
+│   └── 50_write-docs-output.md
 └── README.md
 ```
+
+### Response Files
+
+After each batch completes, the dispatcher packages all Claude outputs into a markdown file at `responses/{batch-name}-output.md`. This includes:
+
+- **Full text output** from each task
+- **Tools used** (files read/written, commands run, web searches)
+- **Files created** (paths of any files Claude wrote)
+- **Errors** (if any)
+
+Response files accumulate — they are never deleted. This gives you a complete history of every execution's output, reviewable directly in GitHub.
 
 ## Quick Start
 
