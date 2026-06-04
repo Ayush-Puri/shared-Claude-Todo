@@ -1,0 +1,23 @@
+{
+  "batch": "slack-add-new-api-endpoint-for-user-profiles",
+  "description": "Add new API endpoint for user profiles",
+  "author": "John Developer",
+  "priority": 50,
+  "model": "sonnet",
+  "pipeline": "research",
+  "repos": [],
+  "goal": "Add new API endpoint for user profiles",
+  "slackContext": {
+    "channelId": "C123456789",
+    "threadTs": "1775454150.123456",
+    "user": "John Developer"
+  },
+  "tasks": [
+    {
+      "title": "Process request from John Developer",
+      "prompt": "Add new API endpoint for user profiles",
+      "verification": "",
+      "expectedResult": ""
+    }
+  ]
+}

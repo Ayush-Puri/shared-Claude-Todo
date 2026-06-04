@@ -1,0 +1,23 @@
+{
+  "batch": "slack-fix-database-migration-issue-in-staging",
+  "description": "Fix database migration issue in staging",
+  "author": "Jane Engineer",
+  "priority": 50,
+  "model": "sonnet",
+  "pipeline": "research",
+  "repos": [],
+  "goal": "Fix database migration issue in staging",
+  "slackContext": {
+    "channelId": "C987654321",
+    "threadTs": "1775454200.654321",
+    "user": "Jane Engineer"
+  },
+  "tasks": [
+    {
+      "title": "Process request from Jane Engineer",
+      "prompt": "Fix database migration issue in staging",
+      "verification": "",
+      "expectedResult": ""
+    }
+  ]
+}
