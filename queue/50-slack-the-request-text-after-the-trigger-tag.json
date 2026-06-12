@@ -1,0 +1,23 @@
+{
+  "batch": "slack-the-request-text-after-the-trigger-tag",
+  "description": "the request text after the trigger tag",
+  "author": "display name",
+  "priority": 50,
+  "model": "sonnet",
+  "pipeline": "research",
+  "repos": [],
+  "goal": "the request text after the trigger tag",
+  "slackContext": {
+    "channelId": "C...",
+    "threadTs": "1234567890.123456",
+    "user": "display name"
+  },
+  "tasks": [
+    {
+      "title": "Process request from display name",
+      "prompt": "the request text after the trigger tag",
+      "verification": "",
+      "expectedResult": ""
+    }
+  ]
+}
