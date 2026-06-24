@@ -1,0 +1,23 @@
+{
+  "batch": "slack-fix-the-authentication-middleware-for-th",
+  "description": "Fix the authentication middleware for the new login flow",
+  "author": "Ayush Puri",
+  "priority": 50,
+  "model": "sonnet",
+  "pipeline": "research",
+  "repos": [],
+  "goal": "Fix the authentication middleware for the new login flow",
+  "slackContext": {
+    "channelId": "C076KP7FUHX",
+    "threadTs": "1775454325.124356",
+    "user": "Ayush Puri"
+  },
+  "tasks": [
+    {
+      "title": "Process request from Ayush Puri",
+      "prompt": "Fix the authentication middleware for the new login flow",
+      "verification": "",
+      "expectedResult": ""
+    }
+  ]
+}

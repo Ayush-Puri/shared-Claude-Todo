@@ -1,0 +1,23 @@
+{
+  "batch": "slack-deploy-the-latest-build-to-staging-envir",
+  "description": "Deploy the latest build to staging environment",
+  "author": "Dev Team Bot",
+  "priority": 50,
+  "model": "sonnet",
+  "pipeline": "research",
+  "repos": [],
+  "goal": "Deploy the latest build to staging environment",
+  "slackContext": {
+    "channelId": "C087LMKD92F",
+    "threadTs": "1775454510.987654",
+    "user": "Dev Team Bot"
+  },
+  "tasks": [
+    {
+      "title": "Process request from Dev Team Bot",
+      "prompt": "Deploy the latest build to staging environment",
+      "verification": "",
+      "expectedResult": ""
+    }
+  ]
+}
